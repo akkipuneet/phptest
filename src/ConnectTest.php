@@ -11,7 +11,7 @@ class RemoteConnectTest extends PHPUnit_Framework_TestCase
   {
     // test to ensure that the object from an fsockopen is valid
     $connObj = new RemoteConnect();
-    $serverName = 'www.yahoo.com';
+    $serverName = 'www.google.com';
     $this->assertTrue($connObj->connectToServer($serverName) !== false);
   }
 }
